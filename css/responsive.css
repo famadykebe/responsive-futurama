@@ -1,0 +1,157 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+html,body
+{
+	font-family: sans-serif;
+	background: #e2e5e0;
+	font-size: 14px;
+
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.wrap
+{
+	margin:20px auto;
+	max-width: 960px;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+
+
+}
+
+header,figure
+{
+	display: block;
+}
+
+.block-img
+{
+	float: right;
+	width: 35%;
+}
+
+.top-barre
+{
+	float: left;
+	width: 60%;
+	
+	/*padding-right: 35px;*/
+}
+
+.load-1
+{
+	float: left;
+	width: 65%;
+	padding-right: 30px;
+}
+
+.load-2
+{
+	float: right;
+	width: 30%;
+}
+
+.title-top-bare
+{
+	margin-bottom: 36px;
+}
+
+.load-2 p
+{
+	margin-bottom: 15px;
+}
+
+/*-- media screen responsive--  960px */
+
+@media screen and (max-width: 960px)
+{
+
+	.wrap
+	{
+		padding-bottom: 90px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+
+	.load-1,.load-2
+	{
+		float: none;
+		width: 100%;
+	}
+
+	.load-1
+	{
+		margin-bottom: 20px;
+	}
+
+	.block-img
+	{
+		position: absolute;
+		width: 322px;
+		
+		top: 20px;
+		right: 20px;
+	
+	}
+
+	.top-barre
+	{
+		float: none;
+		width: auto;
+		margin-right: 335px;
+	}
+
+	
+
+}
+
+
+/*--responsive 600px--*/
+
+
+@media screen and (max-width: 600px)
+{
+
+	.wrap
+	{
+		padding: 0px;
+	}
+
+	.block-img
+	{
+		position: static;
+		width: 100%;
+		margin-bottom: 20px;
+		height: auto;
+	}
+
+	.block-img img
+	{
+		
+		width: 100%;
+	}
+
+
+	.top-barre
+	{
+		padding: 20px;
+		margin-right: 0px;
+		
+	}
+
+
+}
